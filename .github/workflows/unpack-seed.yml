@@ -1,0 +1,35 @@
+name: Unpack Herc & Heimy research seed
+on:
+  push:
+    paths:
+      - "research-seed.b64"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Materialize reviewed public research files
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64, json, pathlib, zlib
+          bundle = pathlib.Path('research-seed.b64')
+          if not bundle.exists():
+              raise SystemExit('Missing seed bundle; no publication attempted')
+          files = json.loads(zlib.decompress(base64.b64decode(bundle.read_text(encoding='ascii'))))
+          for name, body in files.items():
+              path = pathlib.Path(name)
+              if path.is_absolute() or '..' in path.parts or not name.endswith(('.md', '.txt', '.json')):
+                  raise SystemExit('Invalid seed path: ' + name)
+              path.parent.mkdir(parents=True, exist_ok=True)
+              path.write_text(body, encoding='utf-8')
+          bundle.unlink()
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Publish Herc & Heimy initial research library"
+          git push
