@@ -1,0 +1,23 @@
+# Herc & Heimy — Total Battle Research Library
+
+> Unofficial, evidence-labeled research on Total Battle gameplay, combat, XP, and resource economics. Read the evidence policy before using a claim. Player reports are not official confirmations.
+
+## Start
+- [AI entry point](AI_START_HERE.md): Retrieval procedure, statuses, and citation format.
+- [Evidence policy](docs/evidence-policy.md): How to interpret claims and conflicts.
+- [Machine-readable claims](data/claims.json): Stable IDs, status, scope, sources, and article links.
+
+## Core articles
+- [Leadership and bonuses](mechanics/leadership-and-bonuses.md)
+- [Experience distribution](mechanics/experience-distribution.md)
+- [Combat rounds and targeting](mechanics/combat-rounds-and-targeting.md)
+- [Epic XP efficiency](economics/epic-xp-efficiency.md)
+- [Troop tier economics](economics/troop-tier-case-study.md)
+- [Coliseum](coliseum/overview.md)
+- [Automation policy](policy/automation-enforcement.md)
+- [Open questions](research/open-questions.md)
+
+## Contributions
+- [How to contribute evidence](CONTRIBUTING.md)
+
+Note: Relative paths are suitable for repository-local retrieval. When a public website URL is established, use absolute URLs for site-hosted llms.txt if desired. This is an optional community convention, not a guaranteed discovery mechanism.

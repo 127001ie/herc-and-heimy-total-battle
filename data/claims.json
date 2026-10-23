@@ -1,0 +1,331 @@
+{
+  "schema_version": "0.1.0",
+  "project": "Herc & Heimy — Total Battle Research Library",
+  "published_as": "seed release",
+  "last_updated": "2026-10-23",
+  "claims": [
+    {
+      "id": "TB-COMBAT-001",
+      "statement": "All participating leaders contribute to one shared army Leadership pool; troops are not assigned to individual captains.",
+      "status": "observed_player",
+      "scope": "Battle with multiple leaders",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Player firsthand explanation in strategy discussion, 2026-10-23",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/leadership-and-bonuses.md",
+      "decision_relevance": "Captain-count and troop-capacity decisions",
+      "verification_needed": "Independent battle interface verification"
+    },
+    {
+      "id": "TB-COMBAT-002",
+      "statement": "Eligible captain abilities, equipment bonuses, and artifact effects apply across the shared army, restricted by their specified troop eligibility.",
+      "status": "observed_player",
+      "scope": "Participating leaders and eligible troops",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Player firsthand explanation in strategy discussion, 2026-10-23",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/leadership-and-bonuses.md",
+      "decision_relevance": "Predict effect of adding/removing leaders",
+      "verification_needed": "Screenshots or controlled swaps"
+    },
+    {
+      "id": "TB-COMBAT-003",
+      "statement": "Bonuses inside the same applicable Strength pool add rather than independently multiply.",
+      "status": "working_assumption",
+      "scope": "Relevant Strength pool only; precise boundaries unverified",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Repeated prior analytical model, partly originating from assistant advice",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/leadership-and-bonuses.md",
+      "decision_relevance": "Upgrade value and combat prediction",
+      "verification_needed": "Independent official reference or controlled tests across categories"
+    },
+    {
+      "id": "TB-COMBAT-004",
+      "statement": "A surviving squad receives an attack opportunity each round unless eliminated before its turn.",
+      "status": "observed_player",
+      "scope": "Reported standard squad-combat behavior; exceptions untested",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Player observations discussed 2026-10-19",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/combat-rounds-and-targeting.md",
+      "decision_relevance": "Tier/squad count efficiency",
+      "verification_needed": "Battle report replication"
+    },
+    {
+      "id": "TB-COMBAT-005",
+      "statement": "Enemy targeting may maximize effective absolute damage while taking type effects and overkill into account.",
+      "status": "hypothesis",
+      "scope": "Epic targeting; no verified algorithm",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Interpretation of combat reports in prior discussion",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/combat-rounds-and-targeting.md",
+      "decision_relevance": "Predicts squad survival and attack opportunity",
+      "verification_needed": "Controlled counterexample-seeking combat logs"
+    },
+    {
+      "id": "TB-XP-001",
+      "statement": "Battle XP is distributed evenly among all participating leaders, including a hero when present.",
+      "status": "observed_player",
+      "scope": "Standard reported battle XP allocation",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Player firsthand report 2026-10-23",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/experience-distribution.md",
+      "decision_relevance": "Captain XP allocation",
+      "verification_needed": "Matched battle reports showing all leaders"
+    },
+    {
+      "id": "TB-XP-002",
+      "statement": "With even XP split, per-retained-leader XP improves after removing a leader iff E_new/E_old > N_new/N_old.",
+      "status": "derived",
+      "scope": "Assumes TB-XP-001; E_old positive and comparable",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Algebraic deduction from TB-XP-001",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/experience-distribution.md",
+      "decision_relevance": "Break-even XP concentration calculations",
+      "verification_needed": "Validate premise in real battles and incorporate costs"
+    },
+    {
+      "id": "TB-XP-003",
+      "statement": "XP is modeled as a function of actual enemy HP removed, with no XP for overkill.",
+      "status": "working_assumption",
+      "scope": "Epic farming; event scaling unquantified",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Long-running analysis based on player observations",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "mechanics/combat-rounds-and-targeting.md",
+      "decision_relevance": "Epic XP optimization and finishing hits",
+      "verification_needed": "HP delta vs XP controlled trials"
+    },
+    {
+      "id": "TB-ECON-001",
+      "statement": "Relevant Epic efficiency metrics differ: total XP, XP per target leader, XP per resource, and XP per time.",
+      "status": "derived",
+      "scope": "Optimization framework, not a game mechanic",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Decision-analysis framework",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "economics/epic-xp-efficiency.md",
+      "decision_relevance": "Choose suitable objective functions",
+      "verification_needed": "Document costs and objectives explicitly"
+    },
+    {
+      "id": "TB-ECON-002",
+      "statement": "For a late-stage troop-researched account, XP growth may remain valuable while further Conquest Points have low marginal utility.",
+      "status": "strategic_judgment",
+      "scope": "Late-game fully researched account; not universal",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Player strategic assessment in discussion 2026-10-23",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "economics/epic-xp-efficiency.md",
+      "decision_relevance": "PvE/PvP investment priorities",
+      "verification_needed": "Review if new CP sinks or XP rewards emerge"
+    },
+    {
+      "id": "TB-ECON-003",
+      "statement": "Excluding M7 squads was economically preferable in one evaluated Epic farming configuration.",
+      "status": "derived",
+      "scope": "Specific October 2026 configuration only; raw report not public",
+      "last_reviewed": "2026-10-23",
+      "source_type": "analytical model",
+      "evidence": [
+        {
+          "summary": "Historical resource-cost and battle-analysis discussion",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "economics/troop-tier-case-study.md",
+      "decision_relevance": "Troop tier cost optimization",
+      "verification_needed": "Release anonymized trial inputs and compare other Epic configurations"
+    },
+    {
+      "id": "TB-COL-001",
+      "statement": "Coliseum reportedly groups opponents by unlocked troop tier and offers five-captain PvP loadouts with quick equipment/artifact and troop presets.",
+      "status": "observed_player",
+      "scope": "Coliseum as reported 2026-10-23",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand player description",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "coliseum/overview.md",
+      "decision_relevance": "Coliseum tactics and reward effort",
+      "verification_needed": "In-game screenshot and independent description"
+    },
+    {
+      "id": "TB-COL-002",
+      "statement": "Coliseum Attack Value is a single displayed metric for the full selected army, not a per-captain metric.",
+      "status": "observed_player",
+      "scope": "Coliseum configuration screen",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand player description",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "coliseum/overview.md",
+      "decision_relevance": "Design controlled experiments",
+      "verification_needed": "Record screenshot and differential tests"
+    },
+    {
+      "id": "TB-COL-003",
+      "statement": "Coliseum rewards reportedly include a +20% Strength city skin, Artemisia fragments, a possibly +5% frame, CP, and a rank title with uncertain cutoffs.",
+      "status": "observed_player",
+      "scope": "Current Coliseum reward offering; some details uncertain",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand player description with explicit uncertainty",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "coliseum/overview.md",
+      "decision_relevance": "Token allocation",
+      "verification_needed": "Exact in-game reward pages, durations, and conditions"
+    },
+    {
+      "id": "TB-COL-004",
+      "statement": "Artemisia is reported to provide a Beowulf-like PvP-only bonus and share Hall of Fame Courage grouping with Hercules and Heimdall.",
+      "status": "observed_player",
+      "scope": "Artemisia as observed 2026-10-23",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand player description",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "coliseum/overview.md",
+      "decision_relevance": "Future-proof fragment acquisition",
+      "verification_needed": "In-game talent and HoF screenshots"
+    },
+    {
+      "id": "TB-POL-001",
+      "statement": "An in-game admin notice reportedly prohibited tools issuing direct server commands; a follow-up reportedly permitted clan management tools.",
+      "status": "observed_player",
+      "scope": "Exact policy text unavailable, technical interpretation unverified",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand paraphrase, screenshot awaited",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "policy/automation-enforcement.md",
+      "decision_relevance": "Assess compliance boundaries",
+      "verification_needed": "Dated original in-game notices"
+    },
+    {
+      "id": "TB-POL-002",
+      "statement": "Players reportedly faced bans for shield-drop detection tools; status of shield renewal, auto-crypting, and merc-finder tools remains unresolved.",
+      "status": "observed_player",
+      "scope": "Reported first enforcement wave, not verified prevalence",
+      "last_reviewed": "2026-10-23",
+      "source_type": "player report",
+      "evidence": [
+        {
+          "summary": "Firsthand community report",
+          "public_url": null,
+          "independent_verification": false
+        }
+      ],
+      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "article": "policy/automation-enforcement.md",
+      "decision_relevance": "Avoid flawed automation assumptions",
+      "verification_needed": "Official enforcement notices or corroborating reports"
+    }
+  ]
+}
