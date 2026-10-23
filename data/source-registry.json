@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.1",
+  "checked_on": "2026-10-23",
+  "copyright_note": "Linked-source catalog, not permission to copy data; source license must be verified before bulk redistribution.",
+  "sources": [
+    {
+      "id": "SRC-OFFICIAL-VP",
+      "name": "Scorewarrior: Valor points",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/valor-points-504",
+      "kind": "official_support",
+      "topics": [
+        "research",
+        "VP"
+      ],
+      "coverage": "What VP is for; earning pathways",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-CP",
+      "name": "Scorewarrior: Conquest points",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/conquest-points-505",
+      "kind": "official_support",
+      "topics": [
+        "research",
+        "CP"
+      ],
+      "coverage": "What CP is for; earning pathways",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-RESEARCH-WIKI",
+      "name": "Total Battle Wiki: Research planner",
+      "url": "https://totalbattlewiki.com/research/planner/",
+      "kind": "community_reference",
+      "topics": [
+        "research",
+        "VP",
+        "CP"
+      ],
+      "coverage": "Claims 418 research entries across 14 branches with costs",
+      "license": "unverified_do_not_bulk_copy",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-RESEARCH-TOOLKIT",
+      "name": "TB Toolkit: Research",
+      "url": "https://www.tbtoolkit.com/research",
+      "kind": "community_reference",
+      "topics": [
+        "research",
+        "VP",
+        "CP"
+      ],
+      "coverage": "Research cost filtering; site content may require scripts",
+      "license": "unverified_do_not_bulk_copy",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-BP",
+      "name": "Scorewarrior: Great Architect's Blueprints",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/great-architects-blueprints-231",
+      "kind": "official_support",
+      "topics": [
+        "buildings",
+        "blueprints"
+      ],
+      "coverage": "Blueprint function and every-fifth-level upgrade condition",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-BUILD",
+      "name": "Scorewarrior: Building resources",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/building-resources-224",
+      "kind": "official_support",
+      "topics": [
+        "buildings",
+        "resources"
+      ],
+      "coverage": "Wood, iron, stone usage and sources",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-BUILDINGS-WIKI",
+      "name": "Total Battle Wiki: Buildings",
+      "url": "https://totalbattlewiki.com/buildings/",
+      "kind": "community_reference",
+      "topics": [
+        "buildings",
+        "blueprints"
+      ],
+      "coverage": "Level-by-level tables for 17 building types; requires validation",
+      "license": "unverified_do_not_bulk_copy",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-CRYPT",
+      "name": "Scorewarrior: Crypts",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/crypts-460",
+      "kind": "official_support",
+      "topics": [
+        "crypting",
+        "rewards"
+      ],
+      "coverage": "Crypt rarity, materials and research gates",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-CRYPT-MATH",
+      "name": "Scorewarrior: The cost of exploring Crypts and crypt exploration efficiency",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/the-cost-of-exploring-crypts-and-crypt-exploration-efficiency-425",
+      "kind": "official_support",
+      "topics": [
+        "crypting",
+        "formulas"
+      ],
+      "coverage": "Efficiency vs cost; chance to explore twice; carried Tar and extra efficiency",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-CRYPT-WIKI",
+      "name": "Total Battle Wiki: Crypts",
+      "url": "https://totalbattlewiki.com/crypts/",
+      "kind": "community_reference",
+      "topics": [
+        "crypting",
+        "strategy"
+      ],
+      "coverage": "Crypt mechanics, Tar and community strategy notes",
+      "license": "unverified_do_not_bulk_copy",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-OFFICIAL-CAPTAINS",
+      "name": "Scorewarrior: Which captains should I hire and why?",
+      "url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/which-captains-should-i-hire-and-why-465",
+      "kind": "official_support",
+      "topics": [
+        "captains",
+        "crypting"
+      ],
+      "coverage": "Captain roles and stated bonus scaling; may lag new roster",
+      "license": "external_link_only",
+      "checked": "2026-10-23"
+    },
+    {
+      "id": "SRC-TBIQ",
+      "name": "TotalBattleIQ reference",
+      "url": "https://totalbattleiq.com/",
+      "kind": "community_reference",
+      "topics": [
+        "troops",
+        "equipment",
+        "crypting",
+        "captains"
+      ],
+      "coverage": "Interactive catalog and comparison tools; claimed coverage requires validation",
+      "license": "unverified_do_not_bulk_copy",
+      "checked": "2026-10-23"
+    }
+  ]
+}
