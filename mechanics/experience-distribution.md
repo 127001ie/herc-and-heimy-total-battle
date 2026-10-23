@@ -36,6 +36,14 @@ At equality, retained leaders receive the same XP each. These thresholds assume 
 
 A smaller team may lose shared Leadership, captain abilities, worn equipment, and artifact bonuses. Total XP may fall, losses may increase, and other captains receive no XP. A better single-captain XP share does **not** prove superior total growth or resource efficiency.
 
+## Evidence outside the initial player report
+
+Independent public discussion from May 2025 includes multiple community replies reporting that Epic battle XP is divided evenly among the participating captains. These are **separate player reports, not controlled published tests**: [Reddit: XP from epics (May 2025)](https://www.reddit.com/r/TotalBattle/comments/1koyzw5/). One participant proposed a different equipment-slot weighting, so the precise rule still deserves direct measurement.
+
+**Scope warning — battle XP versus claiming achievements:** [Reddit: XP Distribution (September 2025)](https://www.reddit.com/r/TotalBattle/comments/1ni1t13/) contains reports that achievement XP follows a different rule, with a larger Hero share. Do not extend the evenly split *battle* XP claim to achievement rewards. Those achievement claims are also not independently verified by this library.
+
+[Official Total Battle support: Epic monster battles](https://scorewarrior.theymes.com/hc/en/total-battle/articles/epic-monster-battles-432) confirms that Epic events award Experience points for defeated monsters; it does **not** explain per-leader distribution. It should not be misrepresented as official confirmation of an even split.
+
 ## How to test
 
 Against comparable conditions, record leaders present (hero included), total XP credited across leaders, individual XP, enemy HP removed, troop losses and resource costs. Beware different Epic states and randomized procs.
