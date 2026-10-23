@@ -12,6 +12,10 @@ Herc & Heimy began as a Total Battle comic project. This companion research libr
 - **Player:** [Evidence standards](docs/evidence-policy.md) → [Combat and leadership](mechanics/leadership-and-bonuses.md) → [XP distribution](mechanics/experience-distribution.md) → [Epic XP economics](economics/epic-xp-efficiency.md).
 - **Want to check a disputed claim?** Each record has an ID, status, scope, provenance, and missing verification. See [open questions](research/open-questions.md).
 
+## Reference-data expansion
+
+The original mechanics research came from advanced-account questions. We are extending coverage to **T1–T9** with a [foundational data and source coverage map](research/foundational-coverage-map.md), a [machine-readable linked-source registry](data/source-registry.json), and a [validation plan](https://github.com/127001ie/herc-and-heimy-total-battle/issues/2). External tables are linked, not copied without permission and independent checking.
+
 ## Research sections
 
 | Area | Entry point |
