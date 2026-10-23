@@ -111,12 +111,22 @@
           "summary": "Player firsthand report 2026-10-23",
           "public_url": null,
           "independent_verification": false
+        },
+        {
+          "summary": "Independent May 2025 community discussion: multiple replies report equal Epic battle XP division, with a minority conflicting suggestion; anecdotal, not controlled.",
+          "public_url": "https://www.reddit.com/r/TotalBattle/comments/1koyzw5/",
+          "independent_verification": false
+        },
+        {
+          "summary": "Official Epic battles help page confirms Experience rewards from attacking Epic monsters, not equal per-leader division.",
+          "public_url": "https://scorewarrior.theymes.com/hc/en/total-battle/articles/epic-monster-battles-432",
+          "independent_verification": false
         }
       ],
-      "limits": "This is a seed claim; consult the article and evidence policy before treating it as established.",
+      "limits": "Applies to reported battle XP only. Achievement claims may allocate Hero XP differently; a conflicting community suggestion exists. No controlled published verification yet.",
       "article": "mechanics/experience-distribution.md",
       "decision_relevance": "Captain XP allocation",
-      "verification_needed": "Matched battle reports showing all leaders"
+      "verification_needed": "Reproducible per-leader battle XP screenshots; separately characterize Hero distribution and achievement XP"
     },
     {
       "id": "TB-XP-002",
